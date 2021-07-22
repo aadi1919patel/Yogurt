@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823B644524A910E791088E17 /* Pods_Yogurt_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFC8C7B507768AD8CEEFE9 /* Pods_Yogurt_App.framework */; };
+		881AC834263D7FB900F0B5EA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881AC833263D7FB900F0B5EA /* MenuViewController.swift */; };
+		8861BA26263E854D00155CC4 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8861BA25263E854D00155CC4 /* OverviewViewController.swift */; };
+		886C181426516BB40059F6D3 /* futuramediumitalicfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180226516BB30059F6D3 /* futuramediumitalicfont.ttf */; };
+		886C181526516BB40059F6D3 /* tt0205m.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180326516BB30059F6D3 /* tt0205m.ttf */; };
+		886C181626516BB40059F6D3 /* futuraextrablackfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180426516BB30059F6D3 /* futuraextrablackfont.ttf */; };
+		886C181726516BB40059F6D3 /* futuramediumcondensedbt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180526516BB30059F6D3 /* futuramediumcondensedbt.ttf */; };
+		886C181826516BB40059F6D3 /* futur.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180626516BB30059F6D3 /* futur.ttf */; };
+		886C181926516BB40059F6D3 /* futuraxblkbt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180726516BB30059F6D3 /* futuraxblkbt.ttf */; };
+		886C181A26516BB40059F6D3 /* futuraheavyfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180826516BB40059F6D3 /* futuraheavyfont.ttf */; };
+		886C181B26516BB40059F6D3 /* futurabolditalicfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180926516BB40059F6D3 /* futurabolditalicfont.ttf */; };
+		886C181C26516BB40059F6D3 /* futuraheavyitalicfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180A26516BB40059F6D3 /* futuraheavyitalicfont.ttf */; };
+		886C181D26516BB40059F6D3 /* futuraboldfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180B26516BB40059F6D3 /* futuraboldfont.ttf */; };
+		886C181E26516BB40059F6D3 /* futuralightfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180C26516BB40059F6D3 /* futuralightfont.ttf */; };
+		886C181F26516BB40059F6D3 /* futuramediumbt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180D26516BB40059F6D3 /* futuramediumbt.ttf */; };
+		886C182026516BB40059F6D3 /* futuralightbt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180E26516BB40059F6D3 /* futuralightbt.ttf */; };
+		886C182126516BB40059F6D3 /* unicodefuturab.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C180F26516BB40059F6D3 /* unicodefuturab.ttf */; };
+		886C182226516BB40059F6D3 /* unicodefuturabb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C181026516BB40059F6D3 /* unicodefuturabb.ttf */; };
+		886C182326516BB40059F6D3 /* futurabookitalicfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C181126516BB40059F6D3 /* futurabookitalicfont.ttf */; };
+		886C182426516BB40059F6D3 /* futuralightitalicfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C181226516BB40059F6D3 /* futuralightitalicfont.ttf */; };
+		886C182526516BB40059F6D3 /* futurabookfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886C181326516BB40059F6D3 /* futurabookfont.ttf */; };
+		886D17D92653D86900A8CB19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 886D17D82653D86900A8CB19 /* GoogleService-Info.plist */; };
+		8897DA352646743C00DC6086 /* RangeSeekSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897DA322646743C00DC6086 /* RangeSeekSliderDelegate.swift */; };
+		8897DA362646743C00DC6086 /* RangeSeekSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897DA332646743C00DC6086 /* RangeSeekSlider.swift */; };
+		8897DA372646743C00DC6086 /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897DA342646743C00DC6086 /* TapticEngine.swift */; };
+		88B4B69A2642E61300AB6AB7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4B6992642E61300AB6AB7 /* DetailViewController.swift */; };
+		88B4B6B62642EC8B00AB6AB7 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4B6B42642EC8B00AB6AB7 /* ImageCell.swift */; };
+		88B4B6B72642EC8B00AB6AB7 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B4B6B52642EC8B00AB6AB7 /* ImageCell.xib */; };
+		88BAE4A726428B91002C38AE /* MakeItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BAE4A626428B91002C38AE /* MakeItViewController.swift */; };
+		88BAE4AC264296C8002C38AE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BAE4AB264296C8002C38AE /* Extensions.swift */; };
+		88C5DE38264442820055B731 /* YogurtMakerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5DE37264442820055B731 /* YogurtMakerController.swift */; };
+		88C5DE3C264448060055B731 /* YogurtMaker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5DE3A264448060055B731 /* YogurtMaker.xib */; };
+		88C5DE3D264448060055B731 /* YogurtMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5DE3B264448060055B731 /* YogurtMaker.swift */; };
+		88C5DE40264456930055B731 /* YogurtSelectedProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5DE3F264456930055B731 /* YogurtSelectedProcessViewController.swift */; };
+		88C5DE43264466190055B731 /* YogurtProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5DE42264466190055B731 /* YogurtProcessViewController.swift */; };
+		88D413E3263D4BDB006316A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D413E2263D4BDB006316A5 /* AppDelegate.swift */; };
+		88D413E5263D4BDB006316A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D413E4263D4BDB006316A5 /* SceneDelegate.swift */; };
+		88D413E7263D4BDB006316A5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D413E6263D4BDB006316A5 /* HomeViewController.swift */; };
+		88D413EA263D4BDB006316A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D413E8263D4BDB006316A5 /* Main.storyboard */; };
+		88D413EC263D4BDC006316A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D413EB263D4BDC006316A5 /* Assets.xcassets */; };
+		88D413EF263D4BDC006316A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D413ED263D4BDC006316A5 /* LaunchScreen.storyboard */; };
+		88D41482263D52C7006316A5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D41400263D52C7006316A5 /* Constant.swift */; };
+		88D41484263D52C7006316A5 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D41402263D52C7006316A5 /* UserDefaultsManager.swift */; };
+		88D41485263D52C7006316A5 /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D41403263D52C7006316A5 /* KeychainItem.swift */; };
+		88D41486263D52C7006316A5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D41405263D52C7006316A5 /* Utils.swift */; };
+		88D41487263D52C7006316A5 /* MySingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D41407263D52C7006316A5 /* MySingleton.swift */; };
+		88D41488263D52C7006316A5 /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4140A263D52C7006316A5 /* UIViewXRadialGradient.swift */; };
+		88D41489263D52C7006316A5 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4140B263D52C7006316A5 /* UITextFieldX.swift */; };
+		88D4148A263D52C7006316A5 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4140C263D52C7006316A5 /* UIButtonX.swift */; };
+		88D4148B263D52C7006316A5 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4140D263D52C7006316A5 /* UILabelX.swift */; };
+		88D4148C263D52C7006316A5 /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4140E263D52C7006316A5 /* UIViewAnchorPoint.swift */; };
+		88D4148D263D52C7006316A5 /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4140F263D52C7006316A5 /* UIViewControllerX.swift */; };
+		88D4148E263D52C7006316A5 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D41410263D52C7006316A5 /* UIImageViewX.swift */; };
+		88D4148F263D52C7006316A5 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D41411263D52C7006316A5 /* UIViewX.swift */; };
+		88D41490263D52C7006316A5 /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D41412263D52C7006316A5 /* UIVisualEffectViewX.swift */; };
+		88D41491263D52C7006316A5 /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D41413263D52C7006316A5 /* UISliderX.swift */; };
+		88D41492263D52C7006316A5 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D41415263D52C7006316A5 /* SVRadialGradientLayer.m */; };
+		88D41493263D52C7006316A5 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D41418263D52C7006316A5 /* SVProgressAnimatedView.m */; };
+		88D41494263D52C7006316A5 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D4141B263D52C7006316A5 /* SVProgressHUD.m */; };
+		88D41495263D52C7006316A5 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D4141C263D52C7006316A5 /* SVIndefiniteAnimatedView.m */; };
+		88D41496263D52C7006316A5 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88D4141D263D52C7006316A5 /* SVProgressHUD.bundle */; };
+		88D414B3263D52C7006316A5 /* CommanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D41444263D52C7006316A5 /* CommanView.swift */; };
+		88D414BE263D52C7006316A5 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88D41451263D52C7006316A5 /* Montserrat-Medium.ttf */; };
+		88D414BF263D52C7006316A5 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88D41452263D52C7006316A5 /* Montserrat-Light.ttf */; };
+		88D414C0263D52C7006316A5 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88D41453263D52C7006316A5 /* Montserrat-Bold.ttf */; };
+		88D414C1263D52C7006316A5 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88D41454263D52C7006316A5 /* Montserrat-Regular.ttf */; };
+		88D414C2263D52C7006316A5 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88D41455263D52C7006316A5 /* Montserrat-Italic.ttf */; };
+		88D414E1263D52C7006316A5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4147D263D52C7006316A5 /* DataManager.swift */; };
+		88D414E2263D52C7006316A5 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4147E263D52C7006316A5 /* DataStructures.swift */; };
+		88D414E3263D52C7006316A5 /* WebServicesUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4147F263D52C7006316A5 /* WebServicesUrls.swift */; };
+		88D414E4263D52C7006316A5 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D41480263D52C7006316A5 /* Reachability.swift */; };
+		88D414E5263D52C7006316A5 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D41481263D52C7006316A5 /* Webservices.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F168EEB5A6DE633A83E6BC4 /* Pods-Yogurt App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yogurt App.release.xcconfig"; path = "Target Support Files/Pods-Yogurt App/Pods-Yogurt App.release.xcconfig"; sourceTree = "<group>"; };
+		5DAFC8C7B507768AD8CEEFE9 /* Pods_Yogurt_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yogurt_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75197C85ED40F4A49C4C4C8F /* Pods-Yogurt App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yogurt App.debug.xcconfig"; path = "Target Support Files/Pods-Yogurt App/Pods-Yogurt App.debug.xcconfig"; sourceTree = "<group>"; };
+		881AC833263D7FB900F0B5EA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8861BA25263E854D00155CC4 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		886C180226516BB30059F6D3 /* futuramediumitalicfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futuramediumitalicfont.ttf; sourceTree = "<group>"; };
+		886C180326516BB30059F6D3 /* tt0205m.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tt0205m.ttf; sourceTree = "<group>"; };
+		886C180426516BB30059F6D3 /* futuraextrablackfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futuraextrablackfont.ttf; sourceTree = "<group>"; };
+		886C180526516BB30059F6D3 /* futuramediumcondensedbt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futuramediumcondensedbt.ttf; sourceTree = "<group>"; };
+		886C180626516BB30059F6D3 /* futur.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futur.ttf; sourceTree = "<group>"; };
+		886C180726516BB30059F6D3 /* futuraxblkbt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futuraxblkbt.ttf; sourceTree = "<group>"; };
+		886C180826516BB40059F6D3 /* futuraheavyfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futuraheavyfont.ttf; sourceTree = "<group>"; };
+		886C180926516BB40059F6D3 /* futurabolditalicfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futurabolditalicfont.ttf; sourceTree = "<group>"; };
+		886C180A26516BB40059F6D3 /* futuraheavyitalicfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futuraheavyitalicfont.ttf; sourceTree = "<group>"; };
+		886C180B26516BB40059F6D3 /* futuraboldfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futuraboldfont.ttf; sourceTree = "<group>"; };
+		886C180C26516BB40059F6D3 /* futuralightfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futuralightfont.ttf; sourceTree = "<group>"; };
+		886C180D26516BB40059F6D3 /* futuramediumbt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futuramediumbt.ttf; sourceTree = "<group>"; };
+		886C180E26516BB40059F6D3 /* futuralightbt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futuralightbt.ttf; sourceTree = "<group>"; };
+		886C180F26516BB40059F6D3 /* unicodefuturab.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicodefuturab.ttf; sourceTree = "<group>"; };
+		886C181026516BB40059F6D3 /* unicodefuturabb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = unicodefuturabb.ttf; sourceTree = "<group>"; };
+		886C181126516BB40059F6D3 /* futurabookitalicfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futurabookitalicfont.ttf; sourceTree = "<group>"; };
+		886C181226516BB40059F6D3 /* futuralightitalicfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futuralightitalicfont.ttf; sourceTree = "<group>"; };
+		886C181326516BB40059F6D3 /* futurabookfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futurabookfont.ttf; sourceTree = "<group>"; };
+		886D17D82653D86900A8CB19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8897DA322646743C00DC6086 /* RangeSeekSliderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSeekSliderDelegate.swift; sourceTree = "<group>"; };
+		8897DA332646743C00DC6086 /* RangeSeekSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSeekSlider.swift; sourceTree = "<group>"; };
+		8897DA342646743C00DC6086 /* TapticEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapticEngine.swift; sourceTree = "<group>"; };
+		88B4B6992642E61300AB6AB7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		88B4B6B42642EC8B00AB6AB7 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		88B4B6B52642EC8B00AB6AB7 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		88BAE4A626428B91002C38AE /* MakeItViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItViewController.swift; sourceTree = "<group>"; };
+		88BAE4AB264296C8002C38AE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		88C5DE37264442820055B731 /* YogurtMakerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YogurtMakerController.swift; sourceTree = "<group>"; };
+		88C5DE3A264448060055B731 /* YogurtMaker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YogurtMaker.xib; sourceTree = "<group>"; };
+		88C5DE3B264448060055B731 /* YogurtMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YogurtMaker.swift; sourceTree = "<group>"; };
+		88C5DE3F264456930055B731 /* YogurtSelectedProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogurtSelectedProcessViewController.swift; sourceTree = "<group>"; };
+		88C5DE42264466190055B731 /* YogurtProcessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YogurtProcessViewController.swift; sourceTree = "<group>"; };
+		88D413DF263D4BDB006316A5 /* Yogurt App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yogurt App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D413E2263D4BDB006316A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88D413E4263D4BDB006316A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88D413E6263D4BDB006316A5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		88D413E9263D4BDB006316A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88D413EB263D4BDC006316A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88D413EE263D4BDC006316A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88D413F0263D4BDC006316A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D41400263D52C7006316A5 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		88D41402263D52C7006316A5 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		88D41403263D52C7006316A5 /* KeychainItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItem.swift; sourceTree = "<group>"; };
+		88D41405263D52C7006316A5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		88D41407263D52C7006316A5 /* MySingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySingleton.swift; sourceTree = "<group>"; };
+		88D4140A263D52C7006316A5 /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		88D4140B263D52C7006316A5 /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		88D4140C263D52C7006316A5 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		88D4140D263D52C7006316A5 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		88D4140E263D52C7006316A5 /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		88D4140F263D52C7006316A5 /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		88D41410263D52C7006316A5 /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		88D41411263D52C7006316A5 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		88D41412263D52C7006316A5 /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		88D41413263D52C7006316A5 /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		88D41415263D52C7006316A5 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		88D41416263D52C7006316A5 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		88D41417263D52C7006316A5 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		88D41418263D52C7006316A5 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		88D41419263D52C7006316A5 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		88D4141A263D52C7006316A5 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		88D4141B263D52C7006316A5 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		88D4141C263D52C7006316A5 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		88D4141D263D52C7006316A5 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		88D4141E263D52C7006316A5 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		88D41444263D52C7006316A5 /* CommanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommanView.swift; sourceTree = "<group>"; };
+		88D41451263D52C7006316A5 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		88D41452263D52C7006316A5 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		88D41453263D52C7006316A5 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		88D41454263D52C7006316A5 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		88D41455263D52C7006316A5 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		88D4147D263D52C7006316A5 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		88D4147E263D52C7006316A5 /* DataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
+		88D4147F263D52C7006316A5 /* WebServicesUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServicesUrls.swift; sourceTree = "<group>"; };
+		88D41480263D52C7006316A5 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		88D41481263D52C7006316A5 /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
+		88D414FD263D557B006316A5 /* YogurtApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YogurtApp-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88D413DC263D4BDB006316A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823B644524A910E791088E17 /* Pods_Yogurt_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8897DA302646743C00DC6086 /* RangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				8897DA312646743C00DC6086 /* Sources */,
+			);
+			path = RangeSlider;
+			sourceTree = "<group>";
+		};
+		8897DA312646743C00DC6086 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8897DA322646743C00DC6086 /* RangeSeekSliderDelegate.swift */,
+				8897DA332646743C00DC6086 /* RangeSeekSlider.swift */,
+				8897DA342646743C00DC6086 /* TapticEngine.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		88BAE4A526428A10002C38AE /* Let's Make It */ = {
+			isa = PBXGroup;
+			children = (
+				88BAE4A626428B91002C38AE /* MakeItViewController.swift */,
+				88B4B6992642E61300AB6AB7 /* DetailViewController.swift */,
+				88C5DE37264442820055B731 /* YogurtMakerController.swift */,
+				88C5DE3F264456930055B731 /* YogurtSelectedProcessViewController.swift */,
+				88C5DE42264466190055B731 /* YogurtProcessViewController.swift */,
+			);
+			path = "Let's Make It";
+			sourceTree = "<group>";
+		};
+		88D413D6263D4BDB006316A5 = {
+			isa = PBXGroup;
+			children = (
+				88D413E1263D4BDB006316A5 /* Yogurt App */,
+				88D413E0263D4BDB006316A5 /* Products */,
+				F314DB017C1D68A2A9D56B19 /* Pods */,
+				C830C5FEB88EB087FBD7F708 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88D413E0263D4BDB006316A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88D413DF263D4BDB006316A5 /* Yogurt App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88D413E1263D4BDB006316A5 /* Yogurt App */ = {
+			isa = PBXGroup;
+			children = (
+				88D4147C263D52C7006316A5 /* APIManager */,
+				88D41456263D52C7006316A5 /* Cells */,
+				88D41450263D52C7006316A5 /* Fonts */,
+				88D41408263D52C7006316A5 /* Libraries */,
+				88D41445263D52C7006316A5 /* Models */,
+				88D41406263D52C7006316A5 /* Singleton */,
+				88D413FF263D52C7006316A5 /* Utilities */,
+				88D4150C263D57B6006316A5 /* ViewController */,
+				88D413E2263D4BDB006316A5 /* AppDelegate.swift */,
+				88D413E4263D4BDB006316A5 /* SceneDelegate.swift */,
+				88D414FD263D557B006316A5 /* YogurtApp-Bridging-Header.h */,
+				88D413E8263D4BDB006316A5 /* Main.storyboard */,
+				88D413EB263D4BDC006316A5 /* Assets.xcassets */,
+				88D413ED263D4BDC006316A5 /* LaunchScreen.storyboard */,
+				88D413F0263D4BDC006316A5 /* Info.plist */,
+				886D17D82653D86900A8CB19 /* GoogleService-Info.plist */,
+			);
+			path = "Yogurt App";
+			sourceTree = "<group>";
+		};
+		88D413FF263D52C7006316A5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				88D41400263D52C7006316A5 /* Constant.swift */,
+				88D41402263D52C7006316A5 /* UserDefaultsManager.swift */,
+				88D41403263D52C7006316A5 /* KeychainItem.swift */,
+				88D41405263D52C7006316A5 /* Utils.swift */,
+				88BAE4AB264296C8002C38AE /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		88D41406263D52C7006316A5 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				88D41407263D52C7006316A5 /* MySingleton.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		88D41408263D52C7006316A5 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8897DA302646743C00DC6086 /* RangeSlider */,
+				88D41409263D52C7006316A5 /* DesignableX */,
+				88D41414263D52C7006316A5 /* SVProgressHUD */,
+				88D41443263D52C7006316A5 /* GradientView */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		88D41409263D52C7006316A5 /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				88D4140A263D52C7006316A5 /* UIViewXRadialGradient.swift */,
+				88D4140B263D52C7006316A5 /* UITextFieldX.swift */,
+				88D4140C263D52C7006316A5 /* UIButtonX.swift */,
+				88D4140D263D52C7006316A5 /* UILabelX.swift */,
+				88D4140E263D52C7006316A5 /* UIViewAnchorPoint.swift */,
+				88D4140F263D52C7006316A5 /* UIViewControllerX.swift */,
+				88D41410263D52C7006316A5 /* UIImageViewX.swift */,
+				88D41411263D52C7006316A5 /* UIViewX.swift */,
+				88D41412263D52C7006316A5 /* UIVisualEffectViewX.swift */,
+				88D41413263D52C7006316A5 /* UISliderX.swift */,
+			);
+			path = DesignableX;
+			sourceTree = "<group>";
+		};
+		88D41414263D52C7006316A5 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				88D41415263D52C7006316A5 /* SVRadialGradientLayer.m */,
+				88D41416263D52C7006316A5 /* SVIndefiniteAnimatedView.h */,
+				88D41417263D52C7006316A5 /* SVProgressHUD.h */,
+				88D41418263D52C7006316A5 /* SVProgressAnimatedView.m */,
+				88D41419263D52C7006316A5 /* SVProgressHUD-Prefix.pch */,
+				88D4141A263D52C7006316A5 /* SVRadialGradientLayer.h */,
+				88D4141B263D52C7006316A5 /* SVProgressHUD.m */,
+				88D4141C263D52C7006316A5 /* SVIndefiniteAnimatedView.m */,
+				88D4141D263D52C7006316A5 /* SVProgressHUD.bundle */,
+				88D4141E263D52C7006316A5 /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		88D41443263D52C7006316A5 /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				88D41444263D52C7006316A5 /* CommanView.swift */,
+			);
+			path = GradientView;
+			sourceTree = "<group>";
+		};
+		88D41445263D52C7006316A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		88D41450263D52C7006316A5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				88D41451263D52C7006316A5 /* Montserrat-Medium.ttf */,
+				88D41452263D52C7006316A5 /* Montserrat-Light.ttf */,
+				88D41453263D52C7006316A5 /* Montserrat-Bold.ttf */,
+				88D41454263D52C7006316A5 /* Montserrat-Regular.ttf */,
+				88D41455263D52C7006316A5 /* Montserrat-Italic.ttf */,
+				886C180626516BB30059F6D3 /* futur.ttf */,
+				886C180B26516BB40059F6D3 /* futuraboldfont.ttf */,
+				886C180926516BB40059F6D3 /* futurabolditalicfont.ttf */,
+				886C181326516BB40059F6D3 /* futurabookfont.ttf */,
+				886C181126516BB40059F6D3 /* futurabookitalicfont.ttf */,
+				886C180426516BB30059F6D3 /* futuraextrablackfont.ttf */,
+				886C180826516BB40059F6D3 /* futuraheavyfont.ttf */,
+				886C180A26516BB40059F6D3 /* futuraheavyitalicfont.ttf */,
+				886C180E26516BB40059F6D3 /* futuralightbt.ttf */,
+				886C180C26516BB40059F6D3 /* futuralightfont.ttf */,
+				886C181226516BB40059F6D3 /* futuralightitalicfont.ttf */,
+				886C180D26516BB40059F6D3 /* futuramediumbt.ttf */,
+				886C180526516BB30059F6D3 /* futuramediumcondensedbt.ttf */,
+				886C180226516BB30059F6D3 /* futuramediumitalicfont.ttf */,
+				886C180726516BB30059F6D3 /* futuraxblkbt.ttf */,
+				886C180326516BB30059F6D3 /* tt0205m.ttf */,
+				886C180F26516BB40059F6D3 /* unicodefuturab.ttf */,
+				886C181026516BB40059F6D3 /* unicodefuturabb.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		88D41456263D52C7006316A5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				88D41460263D52C7006316A5 /* TVCells */,
+				88D41473263D52C7006316A5 /* CVCells */,
+				88D41477263D52C7006316A5 /* CustomViews */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		88D41460263D52C7006316A5 /* TVCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TVCells;
+			sourceTree = "<group>";
+		};
+		88D41473263D52C7006316A5 /* CVCells */ = {
+			isa = PBXGroup;
+			children = (
+				88B4B6B42642EC8B00AB6AB7 /* ImageCell.swift */,
+				88B4B6B52642EC8B00AB6AB7 /* ImageCell.xib */,
+				88C5DE3B264448060055B731 /* YogurtMaker.swift */,
+				88C5DE3A264448060055B731 /* YogurtMaker.xib */,
+			);
+			path = CVCells;
+			sourceTree = "<group>";
+		};
+		88D41477263D52C7006316A5 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		88D4147C263D52C7006316A5 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				88D4147D263D52C7006316A5 /* DataManager.swift */,
+				88D4147E263D52C7006316A5 /* DataStructures.swift */,
+				88D4147F263D52C7006316A5 /* WebServicesUrls.swift */,
+				88D41480263D52C7006316A5 /* Reachability.swift */,
+				88D41481263D52C7006316A5 /* Webservices.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		88D4150C263D57B6006316A5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				88BAE4A526428A10002C38AE /* Let's Make It */,
+				88D4150D263D57B6006316A5 /* Home */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		88D4150D263D57B6006316A5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				88D413E6263D4BDB006316A5 /* HomeViewController.swift */,
+				881AC833263D7FB900F0B5EA /* MenuViewController.swift */,
+				8861BA25263E854D00155CC4 /* OverviewViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C830C5FEB88EB087FBD7F708 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DAFC8C7B507768AD8CEEFE9 /* Pods_Yogurt_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F314DB017C1D68A2A9D56B19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75197C85ED40F4A49C4C4C8F /* Pods-Yogurt App.debug.xcconfig */,
+				4F168EEB5A6DE633A83E6BC4 /* Pods-Yogurt App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88D413DE263D4BDB006316A5 /* Yogurt App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D413F3263D4BDC006316A5 /* Build configuration list for PBXNativeTarget "Yogurt App" */;
+			buildPhases = (
+				5F389D840643E07FF496A8EF /* [CP] Check Pods Manifest.lock */,
+				88D413DB263D4BDB006316A5 /* Sources */,
+				88D413DC263D4BDB006316A5 /* Frameworks */,
+				88D413DD263D4BDB006316A5 /* Resources */,
+				83D035F87D96C1A628127609 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yogurt App";
+			productName = "Yogurt App";
+			productReference = 88D413DF263D4BDB006316A5 /* Yogurt App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88D413D7263D4BDB006316A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					88D413DE263D4BDB006316A5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 88D413DA263D4BDB006316A5 /* Build configuration list for PBXProject "Yogurt App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88D413D6263D4BDB006316A5;
+			productRefGroup = 88D413E0263D4BDB006316A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88D413DE263D4BDB006316A5 /* Yogurt App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88D413DD263D4BDB006316A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886C181526516BB40059F6D3 /* tt0205m.ttf in Resources */,
+				88D413EF263D4BDC006316A5 /* LaunchScreen.storyboard in Resources */,
+				88D414C2263D52C7006316A5 /* Montserrat-Italic.ttf in Resources */,
+				886C181626516BB40059F6D3 /* futuraextrablackfont.ttf in Resources */,
+				886C181726516BB40059F6D3 /* futuramediumcondensedbt.ttf in Resources */,
+				886C181E26516BB40059F6D3 /* futuralightfont.ttf in Resources */,
+				88D413EC263D4BDC006316A5 /* Assets.xcassets in Resources */,
+				886C181C26516BB40059F6D3 /* futuraheavyitalicfont.ttf in Resources */,
+				886C181426516BB40059F6D3 /* futuramediumitalicfont.ttf in Resources */,
+				886C182426516BB40059F6D3 /* futuralightitalicfont.ttf in Resources */,
+				88B4B6B72642EC8B00AB6AB7 /* ImageCell.xib in Resources */,
+				886C182126516BB40059F6D3 /* unicodefuturab.ttf in Resources */,
+				886C182026516BB40059F6D3 /* futuralightbt.ttf in Resources */,
+				88D414BE263D52C7006316A5 /* Montserrat-Medium.ttf in Resources */,
+				88C5DE3C264448060055B731 /* YogurtMaker.xib in Resources */,
+				886C181F26516BB40059F6D3 /* futuramediumbt.ttf in Resources */,
+				886C182226516BB40059F6D3 /* unicodefuturabb.ttf in Resources */,
+				886D17D92653D86900A8CB19 /* GoogleService-Info.plist in Resources */,
+				886C181B26516BB40059F6D3 /* futurabolditalicfont.ttf in Resources */,
+				886C181D26516BB40059F6D3 /* futuraboldfont.ttf in Resources */,
+				88D414BF263D52C7006316A5 /* Montserrat-Light.ttf in Resources */,
+				886C181826516BB40059F6D3 /* futur.ttf in Resources */,
+				88D414C0263D52C7006316A5 /* Montserrat-Bold.ttf in Resources */,
+				88D413EA263D4BDB006316A5 /* Main.storyboard in Resources */,
+				886C182526516BB40059F6D3 /* futurabookfont.ttf in Resources */,
+				886C181A26516BB40059F6D3 /* futuraheavyfont.ttf in Resources */,
+				88D41496263D52C7006316A5 /* SVProgressHUD.bundle in Resources */,
+				886C182326516BB40059F6D3 /* futurabookitalicfont.ttf in Resources */,
+				886C181926516BB40059F6D3 /* futuraxblkbt.ttf in Resources */,
+				88D414C1263D52C7006316A5 /* Montserrat-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F389D840643E07FF496A8EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yogurt App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D035F87D96C1A628127609 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yogurt App/Pods-Yogurt App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yogurt App/Pods-Yogurt App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yogurt App/Pods-Yogurt App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88D413DB263D4BDB006316A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B4B69A2642E61300AB6AB7 /* DetailViewController.swift in Sources */,
+				88D4148D263D52C7006316A5 /* UIViewControllerX.swift in Sources */,
+				88D4148E263D52C7006316A5 /* UIImageViewX.swift in Sources */,
+				88D414E3263D52C7006316A5 /* WebServicesUrls.swift in Sources */,
+				88D41490263D52C7006316A5 /* UIVisualEffectViewX.swift in Sources */,
+				88D41485263D52C7006316A5 /* KeychainItem.swift in Sources */,
+				88D413E7263D4BDB006316A5 /* HomeViewController.swift in Sources */,
+				88D413E3263D4BDB006316A5 /* AppDelegate.swift in Sources */,
+				88D41484263D52C7006316A5 /* UserDefaultsManager.swift in Sources */,
+				8897DA352646743C00DC6086 /* RangeSeekSliderDelegate.swift in Sources */,
+				88D413E5263D4BDB006316A5 /* SceneDelegate.swift in Sources */,
+				88BAE4A726428B91002C38AE /* MakeItViewController.swift in Sources */,
+				881AC834263D7FB900F0B5EA /* MenuViewController.swift in Sources */,
+				88D41482263D52C7006316A5 /* Constant.swift in Sources */,
+				88D41494263D52C7006316A5 /* SVProgressHUD.m in Sources */,
+				88D414E2263D52C7006316A5 /* DataStructures.swift in Sources */,
+				8897DA362646743C00DC6086 /* RangeSeekSlider.swift in Sources */,
+				88D414E5263D52C7006316A5 /* Webservices.swift in Sources */,
+				88D414B3263D52C7006316A5 /* CommanView.swift in Sources */,
+				88D414E1263D52C7006316A5 /* DataManager.swift in Sources */,
+				88C5DE38264442820055B731 /* YogurtMakerController.swift in Sources */,
+				88D41487263D52C7006316A5 /* MySingleton.swift in Sources */,
+				8861BA26263E854D00155CC4 /* OverviewViewController.swift in Sources */,
+				88D4148C263D52C7006316A5 /* UIViewAnchorPoint.swift in Sources */,
+				8897DA372646743C00DC6086 /* TapticEngine.swift in Sources */,
+				88C5DE40264456930055B731 /* YogurtSelectedProcessViewController.swift in Sources */,
+				88D414E4263D52C7006316A5 /* Reachability.swift in Sources */,
+				88D4148F263D52C7006316A5 /* UIViewX.swift in Sources */,
+				88B4B6B62642EC8B00AB6AB7 /* ImageCell.swift in Sources */,
+				88D41491263D52C7006316A5 /* UISliderX.swift in Sources */,
+				88D4148B263D52C7006316A5 /* UILabelX.swift in Sources */,
+				88D4148A263D52C7006316A5 /* UIButtonX.swift in Sources */,
+				88D41489263D52C7006316A5 /* UITextFieldX.swift in Sources */,
+				88D41495263D52C7006316A5 /* SVIndefiniteAnimatedView.m in Sources */,
+				88BAE4AC264296C8002C38AE /* Extensions.swift in Sources */,
+				88C5DE43264466190055B731 /* YogurtProcessViewController.swift in Sources */,
+				88D41493263D52C7006316A5 /* SVProgressAnimatedView.m in Sources */,
+				88D41488263D52C7006316A5 /* UIViewXRadialGradient.swift in Sources */,
+				88D41486263D52C7006316A5 /* Utils.swift in Sources */,
+				88C5DE3D264448060055B731 /* YogurtMaker.swift in Sources */,
+				88D41492263D52C7006316A5 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88D413E8263D4BDB006316A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D413E9263D4BDB006316A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88D413ED263D4BDC006316A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D413EE263D4BDC006316A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88D413F1263D4BDC006316A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88D413F2263D4BDC006316A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88D413F4263D4BDC006316A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75197C85ED40F4A49C4C4C8F /* Pods-Yogurt App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = QF4342L863;
+				INFOPLIST_FILE = "Yogurt App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogurtapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = YogurtAppDevelopementCertificate110521;
+				SWIFT_OBJC_BRIDGING_HEADER = "Yogurt App/YogurtApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88D413F5263D4BDC006316A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F168EEB5A6DE633A83E6BC4 /* Pods-Yogurt App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = QF4342L863;
+				INFOPLIST_FILE = "Yogurt App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogurtapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = YogurtAppAdHocCertificate210521;
+				SWIFT_OBJC_BRIDGING_HEADER = "Yogurt App/YogurtApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88D413DA263D4BDB006316A5 /* Build configuration list for PBXProject "Yogurt App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D413F1263D4BDC006316A5 /* Debug */,
+				88D413F2263D4BDC006316A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88D413F3263D4BDC006316A5 /* Build configuration list for PBXNativeTarget "Yogurt App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D413F4263D4BDC006316A5 /* Debug */,
+				88D413F5263D4BDC006316A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88D413D7263D4BDB006316A5 /* Project object */;
+}
